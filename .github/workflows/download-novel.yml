@@ -3,10 +3,10 @@ name: 在线下载小说 (仅TXT)
 on:
   workflow_dispatch:  # 允许手动触发工作流
     inputs:
-      novel_id:
+      novel_id:7385462397235907646
         description: '小说ID (从番茄小说URL中获取)'
         required: true
-      threads:
+      threads:10 
         description: '下载线程数 (1-10)'
         required: true
         default: '5'
